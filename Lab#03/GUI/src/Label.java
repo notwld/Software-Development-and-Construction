@@ -12,16 +12,14 @@ public class Label extends JFrame{
             label.setHorizontalAlignment(JLabel.CENTER);
             label.setVerticalAlignment(JLabel.CENTER);
 
-            label.setHorizontalTextPosition(JLabel.CENTER);
-            label.setVerticalTextPosition(JLabel.CENTER);
+//            label.setHorizontalTextPosition(JLabel.CENTER);
+//            label.setVerticalTextPosition(JLabel.CENTER);
 
-            ImageIcon imageIcon = new ImageIcon("pepe.png");
+            ImageIcon imageIcon = new ImageIcon("pepo_clown.png");
             label.setIcon(imageIcon);
-            label.setForeground(Color.WHITE);
+            label.setForeground(Color.BLACK);
             label.setFont(new Font("Ariel",Font.BOLD,31));
             label.setBackground(Color.black);
-            label.setOpaque(true);
-//            label.setOpaque(true);
             label.setBorder(border);
 
            this.getContentPane().setBackground(new Color(68, 68, 68));
